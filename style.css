@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Outfit";
+    src: url("/police/Outfit-VariableFont_wght.ttf"),
+}
+
+
+body{
+    font-family: 'Outfit';
+    background-color: hsl(220, 15%, 55%);
+)
+
+}
+
+.h1{
+    font-weight: 700;
+    width: 250px;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+}
+
+.paragraph{
+    font-size:15px;
+    text-align: center;
+    width: 250px;
+    margin:20px;
+    color: lightgrey;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+
+}
+
+.contain{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.image{
+    height: 250px;
+    width:auto;
+    margin: 10px;
+    border-radius: 20px;
+
+}
